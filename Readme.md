@@ -1,6 +1,7 @@
 
 ## Frameworks
-1. Protractor with Jasmin
+1. [Protractor with Jasmin](https://www.protractortest.org/#/)  
+Protractor is an end-to-end test framework for Angular and AngularJS applications. Protractor runs tests against your application running in a real browser, interacting with it as a user would.
 
 ### Tutorials
 1. https://www.protractortest.org/#/tutorial

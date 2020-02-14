@@ -25,10 +25,15 @@ exports.config = {
     params: defaults.params,
     capabilities: {
         browserName: 'chrome'
-    }
+    },
     // multiCapabilities: [{
     //     browserName: 'firefox'
     // }, {
     //     browserName: 'chrome'
     // }]
+
+    // Options to be passed to Jasmine-node.
+    jasmineNodeOpts: {
+        showColors: true, // Use colors in the command line report.
+    }
 }
