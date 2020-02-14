@@ -12,10 +12,21 @@
 
 ## Getting started with Testing
 
-Run `npm run install` to install the dependencies  
+Run `npm install` to install the dependencies  
 
 Run `webdriver-manager update` to download required selenium artifacts  
 Run `webdriver-manager start` to start selenium
+
+or   
+
+Run `rpm run setup` to setup and start selenium
+
+## Running E2Es
+Run `protractor protractor.conf.js` to run all matching E2Es
+
+### Envirnoment variables
+- PROTRACTOR_TARGET_ENV
+- SPEC_OVERRIDE
 
 #### Important files
 

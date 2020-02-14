@@ -8,7 +8,7 @@ describe('Protractor Demo App', function () {
     var latestResult = element(by.binding('latest'));
 
     beforeEach(function () {
-        browser.get(webapplication);
+        browser.get(browser.baseUrl);
     });
 
     it('should have a title', function () {
